@@ -42,7 +42,6 @@
 - GitHub
 - Word
 - Excel
-- 
 ### Contact us
 - hshristov18@codingburgas.bg
 - vgkavaldzhiev18@codingburgas.bg
