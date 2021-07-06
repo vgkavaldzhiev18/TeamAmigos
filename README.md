@@ -25,7 +25,6 @@
         <ul>
           <li>Viktor Kavaldzhiev</li>
           <li>Hristo Hristov</li>
-         
         </ul>
       </td>
     </tr>
