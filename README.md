@@ -23,8 +23,8 @@
     <tr>
       <td>
         <ul>
-          <li>Viktor Kavaldzhiev</li>
           <li>Hristo Hristov</li>
+          <li>Viktor Kavaldzhiev</li>
         </ul>
       </td>
     </tr>
