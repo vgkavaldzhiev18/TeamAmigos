@@ -11,7 +11,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.container {
+.konteiner {
   position: relative;
   text-align: center;
   color: white;
@@ -28,3 +28,5 @@
   width: 100%;
   text-align:center;
 }
+
+
