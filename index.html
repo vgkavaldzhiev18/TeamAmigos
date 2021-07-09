@@ -10,9 +10,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pleasant Valley | Veterinary Clinic</title>
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/menu.css">
     <link rel="stylesheet" type="text/css" href="css/button.css">
+    <link rel="stylesheet" href="css/map.css">
+    <script src="scripts/map.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
@@ -30,13 +31,18 @@
   transform: translate(-50%, -50%);
   font-family: 'Roboto';
 }
+.find1 {
+  height: 100px;
+  width: 100%;
+  text-align:center;
+}
 
       </style>
 </head>
 
 
 
-<body style="background-color:white;font-family:Verdana, Geneva, Tahoma, sans-serif;font-size:14pt;line-height: 1.5;">
+<body style="background-color:white;font-family: 'Noto Sans JP', sans-serif;font-size:14pt;line-height: 1.5;">
   
     <div id="main">
   <!--Navigation Bar -->
@@ -73,6 +79,23 @@
                   </div>
                 </div>
               </div>
+
+            <div class="find1" style="background-color: #EF620B;">
+
+<p style="color: white;font-size: 23px;padding-top:30px;">Find A Hospital</p>
+
+
+            </div>
+
+             <!--The div element for the map -->
+    <div id="map"></div>
+
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&libraries=&v=weekly&channel=2"
+      async
+    ></script>
+    
               
               
 
