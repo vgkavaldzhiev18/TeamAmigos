@@ -36,12 +36,14 @@
 
 ### Used technologies
 
-- Visual studio 2019
+- Visual studio Code
 - Discord
-- Windows
+- HTML 5
+- Java Script
+- CSS 3
 - GitHub
 - Word
-- Excel
+- PowerPoint
 ### Contact us
 - hshristov18@codingburgas.bg
 - vgkavaldzhiev18@codingburgas.bg
