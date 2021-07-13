@@ -15,23 +15,23 @@ function initMap() {
     position: burgas,
     map: map,
   });
-
+ 
   // The marker, positioned at Burgas
   marker = new google.maps.Marker({
     position: sofia,
     map: map,
   });
-
+ 
   // The marker, positioned at Burgas
   marker = new google.maps.Marker({
     position: varna,
     map: map,
   });
-
+ 
   // The marker, positioned at Burgas
   marker = new google.maps.Marker({
     position: plovdiv,
     map: map,
   });
-
+ 
 }
