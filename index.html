@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+ 
     <title>Pleasant Valley | Veterinary Clinic</title>
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-
+ 
     <link rel="stylesheet" type="text/css" href="css/menu.css">
     <link rel="stylesheet" type="text/css" href="css/button.css">
     <link rel="stylesheet" type="text/css" href="css/buttontype1.css">
@@ -16,40 +16,49 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    
-    
-    
+ 
+ 
+ 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
     <link rel="stylesheet" href="css/map.css">
     <script src="scripts/map.js"></script>
     <script src="scripts/scrolleffect.js"></script>
-
+ 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
-
+ 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap" rel="stylesheet">
-
+ 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
-
+ 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bona+Nova&display=swap" rel="stylesheet">
-
-    
-
-    
+ 
+ 
+ 
+    <script>
+      function about() {
+        window.open("about.html");
+      }
+      </script>
+      <script>
+        function findus() {
+          window.open("findus.html");
+        }
+        </script>
 </head>
-
+ 
 <!-- Body starts here -->
-
+ 
 <body style="background-color:white;font-family: 'Noto Sans JP', sans-serif;font-size:14pt;line-height: 1.5;">
-  
-    
+ 
+ 
   <!--Navigation Bar -->
   <nav>
     <div class="logo">
@@ -61,18 +70,18 @@
     </label>
     <ul>
        <li><a class="active" href="index.html">Home</a></li>
-       <li><a href="C:\Users\Viki\Desktop\project html\TeamAmigos\html\aboutpage.html">About</a></li>
+       <li><a href="about.html">About</a></li>
        <li><a href="#">Services</a></li>
        <li><a href="#">Gallery</a></li>
        <li><a href="#">Feedback</a></li>
     </ul>
  </nav>
-
  
-
+ 
+ 
     <main>
-
-
+ 
+ 
 <!--Video and 2 buttons-->
  <div class="konteiner">
             <video autoplay muted loop style="padding-top: 30px; width: 100%;"> 
@@ -82,45 +91,45 @@
                   <p style="font-family: 'Noto Sans JP', sans-serif;font-size: 24px;"> You and your pet are here for each other.</p>
                   <h1 style="font-family: 'Noto Sans JP', sans-serif;font-size: 50px;">We're here for both of you.</h1>
                   <div>
-                    <button class="button" value="submit" style="font-family: 'Noto Sans JP', sans-serif;"><span>Abous Us</span></button>
-                    <button class="button" value="submit" style="font-family: 'Noto Sans JP', sans-serif;"><span>Find Us</span></button>
+                    <button onclick="about()" class="button" value="submit" style="font-family: 'Noto Sans JP', sans-serif;"><span>Abous Us</span></button>
+                    <button onclick="findus()"class="button" value="submit" style="font-family: 'Noto Sans JP', sans-serif;"><span>Find Us</span></button>
                   </div>
                 </div>
               </div>
-
-            <div class="find1" style="background-color: #EF620B;">
-
+ 
+            <div class="find1" style="background-color: #f3a930;">
+ 
 <p style="color: white;font-size: 22px;padding-top:30px;">Find A Hospital Near You | Ensure The Best Care For Your Pets</p>
-
-
+ 
+ 
             </div>
-
+ 
              <!--The div element for the map -->
     <div id="map"></div>
-
+ 
     <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
     <script
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&libraries=&v=weekly&channel=2"
       async
     ></script>
-    
-
+ 
+ 
     <!--Section with cat image and "Learn More button" -->
     <div style="height:800px;background-color:#f5f5f5;">
-
+ 
     <img src="https://www.bostonveterinary.com/wp-content/uploads/2019/10/ImageTile-Wellness.jpg" style="float:right;padding-top:125px;padding-right:240px;" width="500px" height="450px" alt="kotka">
-    
+ 
     <div  style="float:left; width: 500px; padding-top: 200px; padding-left: 180px;">
       <h2 style="font-family: 'Oswald', sans-serif;color: #f3a930;font-size: 40px;">WELLNESS & PREVENTATIVE CARE</h2>
       <br>
-      <p style="color: black;font-family: 'Bona Nova', serif;font-size: 19px;">Pleasant Valley is here to help you and your companion develop a strong and enduring bond over a long and healthy life. Comprehensive wellness care includes vaccinations, parasite prevention, weight management, dental health, spay & neutering, diagnostic testing and behavior.</p>
+      <p style="color: #444;font-family: 'Bona Nova', serif;font-size: 19px;">Pleasant Valley is here to help you and your companion develop a strong and enduring bond over a long and healthy life. Comprehensive wellness care includes vaccinations, parasite prevention, weight management, dental health, spay & neutering, diagnostic testing and behavior.</p>
       </div>
-
+ 
       <div class="wrapper">
         <a class="button1" href="#"><span>Learn More</span></a>
       </div>
       </div>
-
+ 
 <!-- Review Quote Section-->
     <section class="component">
       <blockquote class="callout quote EN">
@@ -128,42 +137,42 @@
       <cite> - Olivia Smith</cite>
         </blockquote>
           </section>
-
-  
-
+ 
+ 
+ 
     <!--Parallax Effect Image-->
     <div class="parallax">
-
+ 
       <div  style="color:white;float:right;padding-right:50px;padding-top: 70px;width: 500px; ">
       <h2 style="font-family: 'Montserrat', sans-serif;">Experience and Quality</h2>
       <br>
       <p style="font-family: 'Montserrat', sans-serif;">Over 10,459 pets saved! We strive to provide the very best in medical care, and our hospitals provide a full range of general, surgical and specialized care.</p>
       <p style="font-family: 'Montserrat', sans-serif;">This is how our Veterinarians would treat their own pets. And we offer nothing less than that to you.</p>
       </div>
-
+ 
     </div>
     <!--Section with Dog and Cat image and "Learn More button" -->
     <div style="height:600px;background-color:#f5f5f5;">
-
+ 
       <img src="https://www.bostonveterinary.com/wp-content/uploads/2019/10/Tile-IntlCertificate.jpg" style="float:left;padding-top:125px;padding-left:200px;" width="500px" height="450px" alt="kotka">
-      
+ 
       <div  style="float:right; width: 500px; padding-top: 200px; padding-right: 180px;">
         <h2 style="font-family: 'Oswald', sans-serif;color: #f3a930;font-size: 38px;">INTERNATIONAL HEALTH CERTIFICATES</h2>
         <br>
-        <p style="color: black;font-family: 'Bona Nova', serif;font-size: 19px;">Pleasant Valley provides a one-stop solution for international travel with your pets. Each country has unique health requirements and tight time frames for compliance and completion. We have completed IHCs for many of the most traveled countries in the world, so our experience is unmatched.</p>
+        <p style="color: #444;font-family: 'Bona Nova', serif;font-size: 19px;">Pleasant Valley provides a one-stop solution for international travel with your pets. Each country has unique health requirements and tight time frames for compliance and completion. We have completed IHCs for many of the most traveled countries in the world, so our experience is unmatched.</p>
         </div>
-  
+ 
         </div>
-
+ 
         <div style="height:700px;background-color:#f5f5f5;">
-
+ 
           <img src="https://www.bostonveterinary.com/wp-content/uploads/2020/12/fearfree-2.jpg" style="float:right;padding-top:125px;padding-right:200px;" width="500px" height="450px" alt="kotka">
-          
+ 
           <div  style="float:left; width: 500px; padding-top: 200px; padding-left: 180px;">
             <h2 style="font-family: 'Oswald', sans-serif;color: #f3a930;font-size: 38px;">FEAR FREE CHAMPS</h2>
             <br>
-            <p style="color: black;font-family: 'Bona Nova', serif;font-size: 19px;">Fear Free Certification provides our professionals and pet lovers with the knowledge and tools to not only look after a pet’s physical wellbeing but her emotional wellbeing, as well. AAHA-accredited hospitals are Champions for Excellent Care. They hold themselves to a higher standard (up to 900 higher standards, in fact). Pets are their passion, and keeping them healthy is their number-one priority.</p>
-           
+            <p style="color: #444;font-family: 'Bona Nova', serif;font-size: 19px;">Fear Free Certification provides our professionals and pet lovers with the knowledge and tools to not only look after a pet’s physical wellbeing but her emotional wellbeing, as well. AAHA-accredited hospitals are Champions for Excellent Care. They hold themselves to a higher standard (up to 900 higher standards, in fact). Pets are their passion, and keeping them healthy is their number-one priority.</p>
+ 
            <!--Social Media Bar-->
            <div style="padding-top: 50px;">
             <ul class="ul1">
@@ -173,65 +182,63 @@
               <li><a href="https://www.linkedin.com/"><span></span></a></li>
           </ul>
             </div>
-          
-          
+ 
+ 
           </div>
        </div>
-
-
+ 
+ 
        <div style="background-color: #662d91;width: 100%;height: 370px;">
         <img src="https://vcahospitals.com/-/media/vca/images/global/icons-for-ctas-and-infographic/icon-for-find-a-location-cta.png?h=113&w=83&la=en&hash=7D7490C87029774B54619C46089AF9F0"  alt="marker" style="display: block; margin-left: auto; margin-right: auto;padding-top: 20px;">
-
+ 
         <p style="text-align: center;color: white;font-size: 2.1vw ;font-family: 'Oswald', sans-serif;">Find a Location</p>
        <br>
        <p style="text-align: center;color:white;font-size: 1.7vw;font-family: 'Oswald', sans-serif;">Find the Pleasant Valley Hospital closest to you.</p>
        <br>
       <div class="konteiner">
-       <button class="button" value="submit" style="font-family: 'Oswald', sans-serif;"><span>Find Us</span></button>
+       <button onclick="findus()" class="button" value="submit" style="font-family: 'Oswald', sans-serif;"><span>Find Us</span></button>
       </div>
       </div>
-
-      
-
-
+ 
+ 
+ 
+ 
     </main>
-
-
-  
-
+ 
+ 
+ 
+ 
 		<footer class="footer-distributed">
-
+ 
 			<div class="footer-right">
-
+ 
 				<a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
 				<a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
 				<a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
 				<a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
-
+ 
 			</div>
-
+ 
 			<div class="footer-left">
-
+ 
 				<p class="footer-links">
 					<a class="link-1" href="index.html" style="margin-left: 0px;">Home</a>
-
-					<a href="#">Blog</a>
-
-					<a href="#">Pricing</a>
-
-					<a href="#">About</a>
-
+ 
+					<a href="findus.html">Find Us</a>
+ 
+					<a href="about.html">About</a>
+ 
 					<a href="#">Faq</a>
-
+ 
 					<a href="#">Contact</a>
 				</p>
-
+ 
 				<p>Pleasant Valley &copy; 2021</p>
 			</div>
-
+ 
 		</footer>
-
-
-
+ 
+ 
+ 
 </body>
 </html>
