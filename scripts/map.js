@@ -1,6 +1,6 @@
 // Initialize and add the map
 function initMap() {
-  // The location of Burgas
+  // The location of Burgas, Sofia, Plovdiv, Varna
   const burgas = { lat: 42.513, lng: 27.466 };
   const sofia = { lat: 42.697, lng: 23.321 };
   const plovdiv = { lat: 42.144, lng: 24.750 };
