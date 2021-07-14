@@ -6,6 +6,7 @@
 - [Our team](#our-team)
 - [Role](#role) 
 - [Contact](#contact-us)
+- [Info](#info)
 
 ---
 
@@ -50,4 +51,10 @@
 
 
 ---
+### Info
+- Home Page - In the Home page you can find information about our clinic and what we offer as services.
+- About Page - In the About Page you can find information about the staff of the clinic and how u can contact with us and also more information about our clinic.
+- Find Us - In the Find Us page you will see a map where you can find locations of every our clinic in Bulgaria.
+- Contacts - In the Contacts Page you can Send us an email or DM in instagram or facebook if u have any questions or doubts about anything.
+
 
