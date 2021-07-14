@@ -170,3 +170,12 @@
     -webkit-transform: scale(1.1); /* Safari 3-8 */
     transform: scale(1.1); 
   }
+
+  hr {
+    width: 70%;
+    height: 1.1px;
+    background-color: #D3D3D3;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
